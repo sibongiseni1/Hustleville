@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: yellow;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size:  18px;
+    color: yellow;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: black;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    background: gold;
+    font-size: 100px;
+    color: yellow;
+    font-weight: 700;
+
+
+}
+
+/*section:nth-child(odd){
+    background: gold;
+
+}*/
+
+.Home {
+    height: 100vh;
+    background: url(1.jpg) no-repeat;
+    background-size:auto;
+    background-position: right;
+    display: flex;
+    align-items:center;
+    padding: 0 10%;
+    background-color: black;
+}
+
+.home-content{
+    max-width: 900px;
+}
+.home-content h1{
+    font-size: 60px;
+}
+
+.home-content p {
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
+
+.About {
+    height: 100vh;
+    background-size:auto;
+    background-position: right;
+    display: flex;
+    align-items:center;
+    padding: 0 10%;
+    background-color:black;
+}
+
+.about-content{
+    max-width: 900px;
+}
+.about-content h1{
+    font-size: 60px;
+}
+
+.about-content p {
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
+
+.athletes-content{
+    display: flex;
+    justify-content: center;
+    height: 90vh ;
+    align-items: center;
+    box-shadow: 5px 5px 20px;
+    
+}
+
+.athletes-content h1{
+    font-size: 0px;
+    color: black;
+}
+
+img{
+    height: 500px
+}
