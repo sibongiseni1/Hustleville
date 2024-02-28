@@ -59,7 +59,7 @@ section {
 
 .Home {
     height: 100vh;
-    background: url(1.jpg) no-repeat;
+    background: url(assets/images/1.jpg) no-repeat;
     background-size:auto;
     background-position: right;
     display: flex;
@@ -94,7 +94,7 @@ section {
 
 .About {
     height: 100vh;
-    background: url(ball.jpg) no-repeat;
+    background: url(assets/images/ball.jpg) no-repeat;
     background-size:auto;
     background-position: right;
     display: flex;
